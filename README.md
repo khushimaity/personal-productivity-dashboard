@@ -1,21 +1,23 @@
-# Personal Productivity Dashboard 🚀
+# 🚀 Personal Productivity Dashboard
 
-A sleek, functional web application designed to streamline daily tasks and provide real-time information. Built to demonstrate proficiency in **Vanilla JavaScript**, **Asynchronous API handling**, and **Responsive Design**.
+A sleek, responsive web-based dashboard designed to help users stay focused and organized. 
 
-## ✨ Key Features
-* **Live Weather Integration:** Fetches real-time data using the OpenWeatherMap API based on user location.
-* **Persistent To-Do List:** Allows users to add and delete tasks, with data saved in `localStorage` so it persists after a page refresh.
-* **Dynamic UI:** Backgrounds and greetings change based on the time of day (Morning, Afternoon, Evening).
-* **Quote of the Day:** Pulls inspirational quotes from a public API to keep users motivated.
+## ✨ Features
+* **Dynamic Greeting:** Changes based on the time of day (Morning, Afternoon, Evening).
+* **Real-time Clock:** Accurate digital clock updated every second.
+* **Motivation Engine:** A random quote generator to keep you inspired while you work.
+* **Interactive To-Do List:** Add daily tasks and remove them with a single click.
 
 ## 🛠️ Tech Stack
-* **Frontend:** HTML5, CSS3 (Flexbox/Grid)
-* **Logic:** Vanilla JavaScript (ES6+)
-* **API:** OpenWeatherMap API
+* **HTML5:** Structure and content.
+* **CSS3:** Modern styling with Glassmorphism (blur) effects and gradients.
+* **JavaScript:** DOM manipulation and real-time logic.
+* **GitHub Pages:** Hosted live for public access.
 
-## 📈 Learning Objectives
-This project was built to master:
-1. Handling **Asynchronous JavaScript** (Promises & Fetch API).
-2. Manipulating the **DOM** efficiently.
-3. Managing application state using **Local Storage**.# personal-productivity-dashboard
-A dynamic productivity dashboard built with HTML, CSS, and Vanilla JavaScript. Features real-time weather integration via OpenWeather API, local storage task management, and a responsive UI.
+## 🌐 Live Demo
+Check out the project here: [https://khushimaity.github.io/personal-productivity-dashboard/](https://khushimaity.github.io/personal-productivity-dashboard/)
+
+## 📸 How to Use
+1. Open the dashboard to see your local time and greeting.
+2. Click "New Quote" for a boost of inspiration.
+3. Type a task in the input box and click "Add" to track your goals.
