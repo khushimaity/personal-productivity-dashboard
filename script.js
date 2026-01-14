@@ -14,6 +14,24 @@ function updateDashboard() {
     else greeting.textContent = "Good Evening!";
 }
 
+// Random Quotes Logic
+const quotes = [
+    "Believe you can and you're halfway there.",
+    "Don't stop when you're tired. Stop when you're done.",
+    "Discipline is doing what needs to be done, even if you don't want to do it.",
+    "Your future is created by what you do today, not tomorrow.",
+    "Focus on being productive instead of busy.",
+    "Success is the sum of small efforts, repeated day in and day out."
+];
+
+const quoteText = document.getElementById('quote-text');
+const quoteBtn = document.getElementById('new-quote-btn');
+
+quoteBtn.addEventListener('click', () => {
+    const randomIndex = Math.floor(Math.random() * quotes.length);
+    quoteText.textContent = `"${quotes[randomIndex]}"`;
+});
+
 // To-Do List Logic
 const addBtn = document.getElementById('add-btn');
 const input = document.getElementById('todo-input');
@@ -23,12 +41,12 @@ addBtn.addEventListener('click', () => {
     if (input.value.trim() !== "") {
         const li = document.createElement('li');
         li.textContent = input.value;
-        li.onclick = () => li.remove(); // Click a task to remove it
+        li.onclick = () => li.remove();
         list.appendChild(li);
         input.value = "";
     }
 });
 
-// Start clock
+// Start systems
 setInterval(updateDashboard, 1000);
 updateDashboard();
